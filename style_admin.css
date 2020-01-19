@@ -1,0 +1,126 @@
+table
+{
+	font-size: 16pt;
+	border-collapse: collapse;
+	text-align: center;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+}
+table tr:nth-child(1) 
+{
+	background: aqua;
+}
+table tr:nth-child(2n)
+{
+	background: aquamarine;
+}
+table tr:hover:nth-child(1)
+{
+	background: aqua;
+	font-weight: normal;
+}
+table td
+{
+	border: 0px solid midnightblue;
+}
+table td:nth-child(1)
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+table tr:hover
+{
+	background: dodgerblue;
+	font-weight: bold;
+
+}
+table td
+{
+	border-left: 2px solid;
+	border-right: 2px solid;
+}
+input[type = "button"]:nth-child(n+13)
+{
+	background-color: cornflowerblue;
+	border: none;
+	padding: 3px 10px;
+	font-size: 12pt;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+input[type = "button"]:hover:nth-child(n+13)
+{
+	background-color: blue;
+	color: white;
+}
+input[type = "button"]:active:nth-child(n+13)
+{
+	background-color: lightcyan;
+	color: black;
+}
+input[type = "button"]:nth-child(12)
+{
+	background: cornflowerblue;
+	color: black;
+	height: 30px;
+	font-size: 1.0em;
+	padding: 0 2em;
+	cursor: cell;
+	transition: 800ms ease all;
+}
+input[type = "button"]:nth-child(12):hover
+{
+	background: lightcyan;
+	color: black;
+}
+input[type = "text"]
+{
+	font-size: 14pt;
+	border: 2px solid blue;
+	border-radius: 15px;
+	padding: 0px 12px;
+	transition: width 400ms ease-in-out;
+	width: 10%;
+}
+input[type = "text"]:focus
+{
+	background-color: lightcyan;
+	width: 20%;
+}
+input[type = "text"]:hover
+{
+	background-color: lightblue;
+}
+input[type = "button"]:nth-child(-n + 3)
+{
+	border-radius: 15px;
+	border: 2px solid blue;
+	background: cornflowerblue;
+	font-size: 14pt;
+	padding: 0px 20px;
+}
+input[type = "button"]:nth-child(-n + 3):active
+{
+	border: 2px solid cornflowerblue;
+	background: #64B5FF;
+}
+body 
+{
+	background: radial-gradient(rgba(0, 0, 0, 0.15) 1px, rgba(200, 200, 200, 0.28) 3px);
+	background-size: 6px 6px;
+}
+div
+{
+	font-size: 14pt;
+	color: red;
+}
+p
+{
+	font-size: 14pt;
+	color: blue;
+}
+p:hover
+{
+	color: black;
+}
